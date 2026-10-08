@@ -1,0 +1,14 @@
+UPLOAD THE PROJECT FILES TO GITHUB
+
+Keep this structure:
+app/
+  include/README.txt
+  Android.mk
+  Application.mk
+  main.cpp
+.github/workflows/build.yml
+
+The GitHub Actions workflow downloads the official AML headers automatically.
+Do NOT upload the old stub amlmod.h/logger.h files.
+
+After committing, open GitHub Actions and run "Button Key Floating Build".
